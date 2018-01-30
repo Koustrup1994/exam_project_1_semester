@@ -1,0 +1,211 @@
+@font-face {
+  font-family: handwrittingFont;
+  src: url(../cardenio_modern/cardenio_modern_std.ttf)
+}
+
+* {
+  margin: 0;
+  font-family: handwrittingFont;
+  padding: 0;
+}
+
+#front_page {
+  background-color: #000066;
+  height: 675px;
+  width: 100%;
+}
+
+ul li a{
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #a6a6a6;
+  font-weight: bold;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: right;
+  margin-top: 30px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav img {
+  width: 100px;
+  text-align: left;
+  padding-left: 0%;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+#menu {
+  float: right;
+  height: 100px;
+  line-height: 100px;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background: none;
+}
+
+#front_page_text {
+  padding-top: 110px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+#front_page_text_2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#page_1_pictrue img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 361px;
+}
+
+#page_1_pictrue {
+  height: 346px;
+  width: 100%;
+}
+
+#about_me {
+  height: 660px;
+  width: 100%;
+  background-color: #1c1c1c;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  padding-top: 30px;
+}
+
+#about_me h2{
+  font-size: 105px;
+}
+
+#about_me p {
+  font-size: 30px;
+  text-align: left;
+  width: 40%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#about_me li{
+  text-align: left;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+#about_me img {
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+#portfolio {
+  min-height: 1300px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+}
+
+#portfolio h2 {
+  font-size: 105px;
+}
+
+#portfolio p {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.portfolio_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+.portfolio_content img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+#portfolio_girls {
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  margin-top: -153px;
+}
+
+#contact {
+  height: 660px;
+  width: 100%;
+  background-color: #1c1c1c;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+#contact h2 {
+  font-size: 105px;
+}
+
+#contact p {
+  font-size: 30px;
+  text-align: left;
+  width: 50%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#contact a{
+  color: white;
+  text-decoration: none;
+}
+
+#contact img {
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+}
+
+footer img{
+  text-align: center;
+  height: 25px;
+  margin-top: 10px;
+}
